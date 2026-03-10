@@ -104,7 +104,7 @@ p span {
   align-items: flex-end;
 }
 
-/* RESERVATIONS AREA*/
+/* RESERVATION*/
 
 .reservation__title {
   padding-top: 100px;
@@ -136,20 +136,25 @@ p span {
 }
 .form__input {
   border-radius: 4px;
+  border-color: #838383;
   height: 60px;
   margin-bottom: 32px;
   padding: 15px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
-.check {
+.form__checkbox {
   border-radius: 2px;
+  border-color: #4f4f4f;
+  flex-direction: row;
 }
 .reservation__form {
   margin: 0 auto;
   max-width: 385px;
   padding-top: 80px;
-}
-.form__checkbox {
-  flex-direction: row;
 }
 .form__button {
   height: 60px;
@@ -160,7 +165,7 @@ p span {
   font-size: 16px;
   line-height: 20px;
   color: #f2f2f2;
-  background-color: #ff976b;
+  background-color: #e96e3a;
   border-radius: 4px;
   margin-bottom: 32px;
 }
@@ -171,4 +176,70 @@ p span {
 .form__fieldset {
   border: none;
   padding: 0%;
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: #d35722;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  padding: 60px 80px;
+}
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+.footer__content {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+}
+.circle {
+  width: 340px;
+  height: 340px;
+  background-color: #e96e3a;
+  border-radius: 50%;
+  position: absolute;
+  left: -44px;
+  top: -128px;
+  z-index: 0;
+}
+
+.footer__sign {
+  color: white;
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 108px;
+}
+.footer__nav-links {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+  font-weight: 500;
+  list-style: none;
+}
+.footer__nav-links_a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.footer__social-head {
+  margin-bottom: 20px;
+}
+.footer__social-icons {
+  color: #f2f2f2;
 }
