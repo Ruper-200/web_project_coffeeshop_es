@@ -150,11 +150,13 @@ p span {
   border-radius: 2px;
   border-color: #4f4f4f;
   flex-direction: row;
+  height: 20px;
+  width: 20px;
 }
 .reservation__form {
   margin: 0 auto;
   max-width: 385px;
-  padding-top: 80px;
+  margin-top: 80px;
 }
 .form__button {
   height: 60px;
@@ -169,8 +171,11 @@ p span {
   border-radius: 4px;
   margin-bottom: 32px;
 }
-.form__label.form__checkbox {
-  gap: 12px;
+.form__label_type_checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
   justify-content: center;
 }
 .form__fieldset {
