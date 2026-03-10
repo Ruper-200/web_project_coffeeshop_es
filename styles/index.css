@@ -124,11 +124,21 @@ p span {
   box-sizing: border-box;
   padding: 100px 80px 120px;
 }
+.form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
 .form__input {
   border-radius: 4px;
-}
-.boton {
-  border-radius: 4px;
+  height: 60px;
+  margin-bottom: 32px;
+  padding: 15px 20px;
 }
 .check {
   border-radius: 2px;
@@ -137,4 +147,26 @@ p span {
   margin: 0 auto;
   max-width: 385px;
   padding-top: 80px;
+}
+.form__checkbox {
+  flex-direction: row;
+}
+.form__button {
+  height: 60px;
+  width: 385px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f2f2f2;
+  background-color: #ff976b;
+  border-radius: 4px;
+}
+.form__label.form__checkbox {
+  gap: 12px;
+  justify-content: center;
+}
+.form__fieldset {
+  border: none;
 }

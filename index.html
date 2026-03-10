@@ -53,35 +53,52 @@
         <h2 class="reservation__title">Reservar una mesa</h2>
         <form class="reservation__form">
           <fieldset class="form__fieldset">
-            <label for="name" class="form__label">Nombre *</label>
-            <input type="text" class="form__input" id="name" required />
+            <label for="name" class="form__label"
+              >Nombre *
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Nombre"
+                required
+            /></label>
+
             <label for="customers" class="form__label"
-              >Número de comensales *</label
-            >
-            <input
-              type="number"
-              class="form__input"
-              min="1"
-              max="8"
-              id="customers"
-              required
-            />
-            <label for="datetime" class="form__label">Fecha y hora *</label>
-            <input
-              type="datetime-local"
-              class="form__input"
-              id="datetime"
-              required
-            />
+              >Número de comensales *
+              <input
+                type="number"
+                class="form__input"
+                min="1"
+                max="8"
+                id="customers"
+                placeholder="1-8"
+                required
+            /></label>
+
+            <label for="datetime" class="form__label"
+              >Fecha y hora *
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="datetime"
+                required
+            /></label>
+
             <label for="correo" class="form__label"
-              >Tu correo electrónico *</label
-            >
-            <input type="email" class="form__input" id="correo" required />
+              >Tu correo electrónico *
+              <input
+                type="email"
+                class="form__input"
+                id="correo"
+                placeholder="email@email.com"
+                required
+            /></label>
           </fieldset>
-          <button type="submit" class="boton">Reservar una mesa</button>
-          <input type="checkbox" class="check" id="checkbox" required />
-          <label for="checkbox" class="form__label"
-            >Acepto los términos de uso</label
+          <button type="submit" class="form__button">Reservar una mesa</button>
+
+          <label for="checkbox" class="form__label form__checkbox"
+            ><input type="checkbox" class="check" id="checkbox" required />
+            Acepto los términos de uso</label
           >
         </form>
       </section>
