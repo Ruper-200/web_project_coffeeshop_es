@@ -6,6 +6,10 @@ El proyecto está enfocado en fundamentos de **HTML5 y CSS3**, incluyendo estruc
 ### 🔗 Demo
 **[Ver aplicación desplegada](https://ruper-200.github.io/web_project_coffeeshop_es/)**
 
+## Vista del proyecto
+[![Vista de Triple Espresso Coffee Shop](./images/coffeeshop-preview.png)](https://ruper-200.github.io/web_project_coffeeshop_es/)
+
+> Haz clic en la imagen para visitar la aplicación.
 
 ## Sobre el proyecto
 Triple Espresso representa el sitio web de una cafetería donde el usuario puede conocer el establecimiento, consultar contenido relacionado y completar un formulario para solicitar una reservación.
